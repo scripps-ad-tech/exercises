@@ -1,0 +1,22 @@
+# Ad Tech Exercises
+
+The exercises below are intentionally very open-ended to see what approach you take. Do what you think is best, and feel free to modify any of the sample code. Feel free to reach out if you have any questions.
+
+### #1
+
+The 1.html file contains a very basic example of how we define what ads to load on a page. Please do the following inside the ScrippsAdLib.js file:
+
+1. Render the ads as they are defined in the ads array. Ads set to display on desktop should only be displayed on desktop. Ads set to display on mobile should only be displayed on mobile.
+
+2. As seen on https://www.wcpo.com, we have a fixed adhesion ad at the bottom of the page that displays on top of all content. Make sure the adhesion ad on this page is displayed in a similar way.
+
+3. Generally, we don't want to load ads unless the user is able to see them. Make sure the ads that are to be lazy loaded are only loaded when their div comes into view as the user scrolls down the page.
+
+### #2
+
+Create a Nodejs app that listens to incoming http requests and responds with the completed html from exercies #1. Deploy this app to Heroku or AWS.
+
+Bonus: Inject some html into the response that outputs the client's user agent and ip address.
+
+### Notes / References
+The ads in the sample code utilize google ad manager and google publisher tag.
