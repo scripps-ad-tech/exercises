@@ -18,5 +18,14 @@ Create a Nodejs app that listens to incoming http requests and responds with the
 
 Bonus: Inject some html into the response that outputs the client's user agent and ip address.
 
+### Bonus
+
+We often use A/B testing as a means to test certain features before they get distributed to all of our users. In your favorite language, create an algorithm to assign users to the following variants:
+- Variant A - 50%
+- Variant B - 30%
+- Control - 20%
+
+After executing your code N number of times (number of users), we should find that approximately 50% of your users were assigned to Variant A, 30% to Variant B, and 20% to Control.
+
 ### Notes / References
 The ads in the sample code utilize google ad manager and google publisher tag.
